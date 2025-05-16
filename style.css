@@ -10,8 +10,6 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url(./img/fundo.avif);
-
 }
 
 .header-banner-top {
@@ -330,4 +328,48 @@ body {
 
 
 /* ------------FOOTER-------------- */
+
+.section-promocao{
+  background-color: rgb(48, 48, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.section-promocao h2{
+   padding: 2rem 0;
+   color: #fff;
+   font-family: "Tagesschrift", system-ui;
+   font-size: 4rem;
+}
+
+.milk-card{
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  padding: 4rem 0;
+  justify-content: space-between;
+  position: relative;
+  background-color: antiquewhite;
+}
+
+.milk-card img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.milk-card h3{
+   color: ;
+   font-size: 2rem;
+   margin-top: 20rem;
+}
 
